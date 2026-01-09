@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Poppins", sans-serif;
+}
+.container{
+    background: url(./imgs/top-view-sketchbook-with-various-spices-herbs-arranged-around.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: center;
+    background-size: cover;
+    position: relative;
+    width: 400px;
+    height: 470px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+}
+hr{
+    border: 1px solid rgba(209, 53, 105, 0.313);
+    width: 100px;
+    margin-left: 35%;
+}
+.small{
+    height: 200px;
+    margin-top: 30px;
+    border-radius:5px;
+    border: 1px solid;
+}
+textarea{
+    margin-top: 30px;
+}
+.main{
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 4%;
+    /* border: 1px solid; */
+}
+.main #total{
+    /* border: 1px solid;  */
+    text-align: start;
+
+}
+.main #Capital{
+    text-align: start;
+    /* border: 1px solid; */
+}
+.main #Small1{
+    text-align: start;
+    /* border: 1px solid; */
+}
+.main #Number{
+    text-align: start;
+    /* border: 1px solid; */
+}
+.main #spl{
+    text-align: start;
+    /* border: 1px solid; */
+}
+button{
+   background-color:#00b674;
+   border-radius: 20px;
+   width: 20%;
+   height: 10%;
+}
+textarea:hover{
+   border: 1px solid blue;
+}
+
+
